@@ -1,0 +1,50 @@
+body{
+    color: darkorange;
+}
+.cos1{
+    color: darkorange;
+  }
+  .cos2{
+    color: darkorange;
+  }
+  .cos3{
+    color: darkorange;
+  }
+  .cos4{
+    color: darkorange;
+  }
+  .cos5{
+    color: darkorange;
+  }
+  .cos6{
+    color: darkorange;
+  }
+  .cos7{
+    color: darkorange;
+  }
+  .cosm{
+    color: deepskyblue;
+  }
+  body{
+    border: 5px solid rgb(16, 90, 1);
+    border-style: groove;
+    border-width: 8px;
+    padding: 10px;
+    width: 1500px;
+    height: 1700px;
+
+  }
+  div{
+    border-style: double;
+    color: rgb(91, 176, 0);
+    width: 700px;
+    height:70px;
+    border-width: 8px;
+  }
+  h2{
+    text-align: center;
+  }
+  
+
+  
+  

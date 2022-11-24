@@ -1,0 +1,53 @@
+h1{
+    font-size: 50px;
+    font-style:unset;
+    color: rgb(156, 84, 2);
+}
+
+.thumb img  {
+
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+   }
+   h4{
+    font-size: 20px;
+   }
+   h3{
+    font-size: 30px;
+   }
+   .container{
+    position: absolute;
+    top: 360px;
+    left: 20px;
+   }
+   .containe{
+    position: absolute;
+    top: 360px;
+    left: 230px;
+   }
+   .contain{
+    position: absolute;
+    top: 360px;
+    left: 440px;
+   }
+   .contai{
+    position: absolute;
+    top: 360px;
+    left: 710px;
+   }
+   .conta{
+    position: absolute;
+    top: 360px;
+    left: 915px;
+   }
+   .cont{
+    position: absolute;
+    top: 360px;
+    left: 1150px;
+   }
+   
+   
+   

@@ -1,0 +1,33 @@
+img{
+    width: 200px;
+}
+.cart{
+    border: 6px solid;
+     width: 400px;
+     margin: 0px auto;
+     border-radius: 20px;
+}
+p{
+    color:black;
+    font-style: initial;
+    margin-left: 30px;
+    margin-right:30px ;
+}
+h3{
+    text-align: center;
+}
+button{
+    color:rgb(126, 9, 169);
+    margin-left: 120px;
+    margin-bottom: 30px;
+    
+} 
+h1{
+    display: 1px; ; 
+    background: gold;
+    text-align: center;
+}
+body{
+    background: url(/фон.jpeg);
+    
+}

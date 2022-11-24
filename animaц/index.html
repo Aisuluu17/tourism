@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Псевдоклассы</title>
+  <link rel="stylesheet" href="/animaц/style.css">
+</head>
+<body>
+  <!-- Пример №1 -->
+  <!-- <style>
+    INPUT:focus{
+      color: brown;
+    }
+  </style>
+  <form action="">
+    <p><input type="text" value="черный текст"></p>
+  </form> -->
+
+
+  <!-- Пример №2 -->
+  <style> 
+    a:link{
+      color: rgb(255, 85, 0);
+
+    }
+    a:visited{
+      color: rgb(72, 141, 4);
+    }
+    a:hover{
+      color: rgb(203, 5, 248);
+    }
+    a:active{
+      color: rgb(58, 2, 58);
+    }
+
+  </style>
+
+  <p>
+    <a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&rlz=1C5CHFA_enKG980KG982&oq=g&aqs=chrome.3.69i60j0i131i433i512j69i57j46i131i199i433i465i512j69i60l4.3024j0j7&sourceid=chrome&ie=UTF-8">Ссылка 1</a>
+    <a href="2.html">Ссылка 2</a>
+    <a href="https://www.google.com/search?q=safari&rlz=1C5CHFA_enKG980KG982&oq=&aqs=chrome.0.35i39i362l6j46i39i362j35i39i362.94580j0j7&sourceid=chrome&ie=UTF-8">Ссылка 3</a>
+  </p>
+
+
+
+<!-- Пример №3 -->
+
+<style>
+  p.new:after{
+    content:"Точнее навсегда."; /*Добавляю после текста абзац*/
+  }
+
+</style>
+
+<p class="new"> Как же я хочу ,чтобы именно 
+  с тобой у меня все получилось. 
+  Надолго. 
+ </p>
+<p>A когда я думаю о тебе, мне кажется, что хоть что-то в своей жизни я сделала правильно.»</p>
+
+
+<!-- Пример №4 -->
+<!-- <style>
+  p{
+     font-family: Arial, Helvetica, sans-serif; /* Гарнитура шрифта основного текста */
+    font-size: 90%;
+    color: darkorange;
+  }
+  p:first-letter{
+    font-family:'Times New Roman', Times, serif; /* Гарнитура шрифта основного текста */
+    font-size: 200%;
+    color: rgb(255, 0, 8);
+  }
+</style>
+<p>Никогда не забывай, что я тебя люблю.
+</p>
+<p>И все мои раны, словно заживали, 
+  когда я обнимала тебя.</p> -->
+
+
+  <!-- Пример №5 -->
+<style>
+p::first-line{
+  color: darkorchid;
+  font-style: italic ;
+}
+</style>
+<p>
+  Суйуу эмес,суйулбогон сезим жалган  <br>
+  Суйуу келет айтпай туруп кайдан-жайдан,  <br>
+  Суйгон адам учат кээде асмандарда, <br>
+   Махабат бул  тугонбогон  учкул дастан.  <br>
+  </p>
+
+
+
+
+
+
+<!-- Пример №6 -->
+
+
+  <style>
+    div{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(255, 0, 98);
+      position: relative;
+      animation-name: example ;
+      animation-duration: 6s;
+      animation-direction: reverse;
+    }
+    @keyframes example{
+      0%{background-color: blue; left: 0px; top: 0px;}
+      25%{background-color: green;left: 300px; top: 3s00px;}
+      75%{background-color: yellow;left: 200px; top: 500px;} 
+      100%{background-color: blueviolet;left: 0px; top: 0px;}
+    }
+  </style>
+  <h1>CSS animation</h1>
+  <div></div>
+
+
+  
+
+</body>
+</html>
